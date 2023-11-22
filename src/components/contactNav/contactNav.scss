@@ -1,0 +1,31 @@
+@import "../../assets/styles/variables";
+
+.contactNav {
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 35px;
+    font-family: $primary-font;
+
+    &__contact {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        &-icon {
+            font-size: 20px;
+        }
+
+        &-text {
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+
+    &__socials {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+}
