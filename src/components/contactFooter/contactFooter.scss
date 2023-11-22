@@ -1,0 +1,50 @@
+@import "../../assets/styles/variables";
+
+.contactFooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $secondary-color;
+    padding: 8px 35px;
+    font-family: $primary-font;
+
+    &__text {
+        font-weight: bolder;
+        color: white;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &-contact {
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+    }
+}
+
+.textHighlight {
+    color: $primary-color;
+}
+
+@media (max-width: 850px) {
+    .contactFooter {
+        width: 100vw;
+        flex-direction: column;
+        padding: 8px 35px 0px 35px;
+
+        &__contacts {
+            width: 100vw;
+            margin-top: 8px;
+            // padding-top: 10px;
+            border-top: 1px solid $primary-color;
+            align-items: center;
+        }
+    }
+}
