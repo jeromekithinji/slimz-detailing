@@ -1,0 +1,13 @@
+@import "../../assets/styles/variables";
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    font-family: $primary-font;
+    background-color: $primary-color;
+    padding: 5px 0px;
+    font-size: 0.9rem;
+    text-align: center;
+}

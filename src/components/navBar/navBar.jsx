@@ -5,7 +5,6 @@ import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 
 
-
 const NavBar = () => {
 
     const [showMenu, setShowMenu] = useState(false);
