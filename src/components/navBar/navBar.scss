@@ -7,10 +7,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 8px 35px;
+    width: 100%;
 
     &__logo {
         object-fit: contain;
         height: 50px;
+        height: 2.5rem;
     }
 
     &__links {
@@ -31,4 +33,37 @@
             color: white;
         }
     }
+
+    &__menuIcon {
+        display: none;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .navBar {
+        &__links {
+            display: none; 
+            flex-direction: column;
+            position: absolute;
+            top: 102px;
+            left: 0px;
+            background-color: #3A3A3A;
+            width: 100%;
+            padding: 15px 0;
+            text-align: center;
+            border-top: 1px solid $primary-color;
+        }
+
+        &__menuIcon {
+            display: block; 
+            cursor: pointer;
+        }
+    }
+
+    .showMenu {  
+        display: flex; 
+    }
+
+    
 }
