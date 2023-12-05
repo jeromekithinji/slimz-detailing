@@ -25,6 +25,22 @@
     &__services {
         margin: 80px 0px 80px 0px;
     }
+
+    &__detailer {
+
+        &-container {
+            display: flex;
+        }
+
+        &-image {
+            object-fit: contain;
+            height: 400px;
+        }
+
+        &-description {
+
+        }
+    }
 }
 
 @media (max-width: 790px) {
