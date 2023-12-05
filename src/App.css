@@ -15,9 +15,14 @@
 .App__header {
     display: flex;
     flex-direction: column;
+
+}
+
+.App__content {
+    padding: 10px 35px;
 }
 
 .App__footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
 }

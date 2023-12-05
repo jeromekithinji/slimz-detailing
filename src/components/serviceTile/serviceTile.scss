@@ -1,0 +1,58 @@
+@import "../../assets/styles/variables";
+
+.serviceTile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    width: 230px;
+    height: 350px;
+    background-color: $secondary-color;
+    padding: 10px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        &-icon {
+            font-size: 3.7rem;
+            color: $primary-color;
+            text-align: center;
+            // padding-top: 10px;
+        }
+
+        &-title {
+            text-align: center;
+            font-weight: bold;
+            color: $text-color;
+            font-size: 1.2rem;
+        }
+
+        &-description {
+            text-align: center;
+            max-height: 80px;
+            overflow-y: scroll !important;
+            font-size: 1rem;
+            color: $text-color;
+        }
+    }
+
+    &__button {
+        padding: 10px;
+        border-radius: 16px;
+        background-color: $primary-color;
+        color: $secondary-color;
+        border: none;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-top: 15px;
+        
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

@@ -1,1 +1,61 @@
 @import "../../assets/styles/variables";
+
+.homePage {
+    font-family: $primary-font;
+
+    &__chooseUs {
+        margin: 80px 0px 80px 0px;
+
+        &-title {
+            font-weight: bolder;
+            font-size: 1.6rem;
+            color: $secondary-color;
+        }
+
+        &-container {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            width: 100%;
+        }
+    }
+
+    &__services {
+        margin: 80px 0px 80px 0px;
+    }
+}
+
+@media (max-width: 790px) {
+    .homePage {
+        &__chooseUs {
+            &-container {
+                display: grid;
+                justify-content: center;
+                grid-template-columns: repeat(2, 1fr);
+                justify-content: center; align-items: center;
+                gap: 20px
+            }
+
+            &-item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 510px) {
+    .homePage {
+        &__chooseUs {
+            &-container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+            }
+        }
+    }
+}
