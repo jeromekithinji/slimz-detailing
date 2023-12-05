@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 8px;
-    width: 230px;
+    width: 250px;
     height: 350px;
     background-color: $secondary-color;
     padding: 10px;
@@ -34,7 +34,7 @@
 
         &-description {
             text-align: center;
-            max-height: 80px;
+            max-height: 150px;
             overflow-y: scroll !important;
             font-size: 1rem;
             color: $text-color;
