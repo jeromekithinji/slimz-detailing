@@ -1,0 +1,53 @@
+@import "../../assets/styles/variables";
+
+.reviewSlider {
+    font-family: $primary-font;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 2px solid black;
+    background-color: $text-color;
+    padding: 50px 0px;
+
+    &-icon {
+        font-size: 45px;
+        color: $primary-color;
+        cursor: pointer;
+    }
+
+    &__content {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        padding: 0px 30px;
+
+        &-image {
+            object-fit: contain;
+            height: 250px;
+        }
+
+        &-text {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+
+            &-location {
+                font-style: italic;
+            }
+
+            &-description {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 790px) {
+    .reviewSlider {
+        &__content {
+            flex-direction: column;
+            align-items: start;
+        }
+    }
+}

@@ -3,6 +3,7 @@ import "./homePage.scss"
 import ChooseUsTile from '../../components/chooseUsTile/chooseUsTile'
 import ServiceTile from '../../components/serviceTile/serviceTile'
 import Detailer from "../../assets/images/slimz.jpg"
+import ReviewSlider from '../../components/reviewSlider/reviewSlider'
 
 const HomePage = () => {
   return (
@@ -51,6 +52,7 @@ const HomePage = () => {
             <p className="homePage__reviews-text">
                 Our clients have experienced our service and results, and they're eager to share their positive experiences with you.
             </p>
+            <ReviewSlider />
         </section>
     </div>
   )

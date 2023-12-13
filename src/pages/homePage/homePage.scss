@@ -50,6 +50,10 @@
 
     &__reviews {
         margin: 80px 0px 80px 0px;
+
+        &-text {
+            margin-bottom: 15px;
+        }
     }
 }
 
@@ -68,6 +72,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+            }
+        }
+
+        &__detailer {
+            &-container {
+                flex-direction: column;
             }
         }
     }
