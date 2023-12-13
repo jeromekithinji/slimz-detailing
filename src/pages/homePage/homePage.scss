@@ -27,9 +27,11 @@
     }
 
     &__detailer {
+        margin: 80px 0px 80px 0px;
 
         &-container {
             display: flex;
+            gap: 20px;
         }
 
         &-image {
@@ -38,8 +40,16 @@
         }
 
         &-description {
+            font-size: 20px;
 
+            &-break {
+                margin-bottom: 40px;
+            }
         }
+    }
+
+    &__reviews {
+        margin: 80px 0px 80px 0px;
     }
 }
 

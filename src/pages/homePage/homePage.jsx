@@ -37,12 +37,20 @@ const HomePage = () => {
                 <img src={Detailer} alt="Picture of Shaan (the detailer) holding a branded bucket standing near a clean car." className="homePage__detailer-image" />
                 <p className="homePage__detailer-description">
                     Shaan, the visionary behind Slimz Detailing in London, has turned his lifelong love for automobiles into a flourishing enterprise that defines the pinnacle of car maintenance.
-                    <br/>
+                    <br className="homePage__detailer-description-break"/>
                     In 2023, Slimz Detailing was established, marking the fruition of Shaan's technical prowess and unwavering dedication to excellence in service and customer contentment.
-                    <br/>
+                    <br className="homePage__detailer-description-break"/>
                     Shaan's personal dedication and pursuit of perfection haven't just garnered a devoted clientele but have also crafted a reputation for infusing genuine "care" into the realm of car maintenance.
                 </p>
             </div>
+        </section>
+        <section className="homePage__reviews">
+            <p className="homePage__chooseUs-title">
+                Our Happy <span className='coloredText'>Customers</span>
+            </p>
+            <p className="homePage__reviews-text">
+                Our clients have experienced our service and results, and they're eager to share their positive experiences with you.
+            </p>
         </section>
     </div>
   )
