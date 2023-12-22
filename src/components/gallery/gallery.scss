@@ -1,0 +1,28 @@
+@import "../../assets/styles/variables";
+
+.gallery {
+    font-family: $primary-font;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__image {
+        // max-width: 100%;
+        // height: auto;
+        object-fit: contain;
+        height: 50%;
+        width: 50%;
+
+        // &-container {
+        //     height: 30%;
+        //     object-fit: contain;
+        //     width: 30%;
+        // }
+    }
+
+    &__dots-dot {
+        cursor: pointer;
+        font-size: 30px;
+        color: $primary-color;
+    }
+}

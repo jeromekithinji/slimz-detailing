@@ -4,6 +4,7 @@ import ChooseUsTile from '../../components/chooseUsTile/chooseUsTile'
 import ServiceTile from '../../components/serviceTile/serviceTile'
 import Detailer from "../../assets/images/slimz.jpg"
 import ReviewSlider from '../../components/reviewSlider/reviewSlider'
+import Gallery from '../../components/gallery/gallery'
 
 const HomePage = () => {
   return (
@@ -53,6 +54,9 @@ const HomePage = () => {
                 Our clients have experienced our service and results, and they're eager to share their positive experiences with you.
             </p>
             <ReviewSlider />
+        </section>
+        <section className="homePage__gallery">
+            <Gallery />
         </section>
     </div>
   )
