@@ -1,0 +1,41 @@
+@import "../../assets/styles/variables";
+
+.faq {
+
+    padding: 10px 0px;
+    border-bottom: 3px solid $secondary-color;
+    margin: 10px 0px;
+
+    &__question {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        &-text {
+            font-weight: 700;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+// /* Do I need to provide parking? */
+
+// position: absolute;
+// width: 307px;
+// height: 30px;
+// left: 83px;
+// top: 1267.36px;
+
+// font-family: 'Manrope';
+// font-style: normal;
+// font-weight: 700;
+// font-size: 22px;
+// line-height: 30px;
+// /* identical to box height */
+
+// color: #3A3A3A;
+

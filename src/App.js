@@ -5,6 +5,7 @@ import NavBar from './components/navBar/navBar';
 import Footer from './components/footer/footer';
 import ContactFooter from './components/contactFooter/contactFooter';
 import HomePage from './pages/homePage/homePage';
+import ServicesPage from './pages/servicesPage/servicesPage';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
             <NavBar />
         </div>
         <div className="App__content">
-            <HomePage />
+            {/* <HomePage /> */}
+            <ServicesPage />
         </div>
         <div className="App__footer">
             <ContactFooter />
