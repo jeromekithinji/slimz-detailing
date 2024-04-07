@@ -1,0 +1,9 @@
+@import "../../assets/styles/variables";
+
+.galleryPage {
+    &-title {
+        font-weight: bolder;
+        font-size: 1.6rem;
+        color: $secondary-color;
+    }
+}

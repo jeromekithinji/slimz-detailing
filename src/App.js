@@ -6,6 +6,7 @@ import Footer from './components/footer/footer';
 import ContactFooter from './components/contactFooter/contactFooter';
 import HomePage from './pages/homePage/homePage';
 import ServicesPage from './pages/servicesPage/servicesPage';
+import GalleryPage from './pages/galleryPage/galleryPage';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         </div>
         <div className="App__content">
             {/* <HomePage /> */}
-            <ServicesPage />
+            {/* <ServicesPage /> */}
+            <GalleryPage />
         </div>
         <div className="App__footer">
             <ContactFooter />

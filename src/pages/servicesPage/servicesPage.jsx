@@ -10,7 +10,7 @@ const ServicesPage = () => {
             Services & Prices
         </p>
         <p className="servicePage-subHeading">
-            Select a service that’s right for you
+            Select a service that’s right for <span className='textHighlight'>you</span>
         </p>
         <div className="servicePage__banners">
             <ServiceBanner />
