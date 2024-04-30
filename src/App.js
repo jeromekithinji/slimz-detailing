@@ -16,9 +16,9 @@ function App() {
             <NavBar />
         </div>
         <div className="App__content">
-            {/* <HomePage /> */}
+            <HomePage />
             {/* <ServicesPage /> */}
-            <GalleryPage />
+            {/* <GalleryPage /> */}
         </div>
         <div className="App__footer">
             <ContactFooter />
