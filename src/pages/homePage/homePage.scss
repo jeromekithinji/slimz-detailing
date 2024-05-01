@@ -95,3 +95,99 @@
         }
     }
 }
+
+/* .......................Start Header Section...................... */
+.homePage__hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 0px 0px !important;
+}
+
+.header-left{
+    max-width: 620px;
+    position: relative;
+}
+.header-left h1{
+    font-size: 54px;
+    line-height: 1.2;
+    color: black;
+    animation: H1Ani forwards 1s ease;  
+    // opacity: 0;    
+    animation-delay: 1s;  
+}
+.header-left h3{
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+    margin-top: .5rem;
+    animation: H1Ani forwards 1s ease;  
+    // opacity: 0;    
+    animation-delay: .8s;  
+}
+.header-left p{
+    margin: 15px 0 30px;
+    line-height: 150%;
+    font-size: 16px;
+    animation: logoAni forwards 1s ease;  
+    // opacity: 0;    
+    animation-delay: .6s; 
+}
+.header-container{
+    // display: grid;
+    // grid-template-columns: auto auto;
+    // align-items: center; 
+    // height: 100%; 
+    // justify-content: space-between;
+    display: flex;
+    grid-template-columns: auto auto;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    width: 100vw;
+}
+.header-right{
+    position: relative;
+    width: 450px;
+    height: 450px;
+    transform: rotate(45deg);
+    right: -7%;   
+}
+.sq-box{
+    height: 100%;
+    width: 100%;
+    border: 25px solid $primary-color;
+    background: white;
+    box-shadow: -15px 15px 15px rgba(0, 0, 0, 0.2) ;
+    // opacity: 0;
+    animation: zoomOut 1s ease forwards; 
+    animation-delay: 1.3s;
+}
+.sq-box img{
+    position: absolute;
+    transform: rotate(-45deg);
+    max-width: 700px;
+    top: 130px;
+    left: -180px;
+    // opacity: 0;
+    animation: carAni forwards 1s ease;
+    animation-delay: 1.6s;
+}
+.sq-box2{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background: $primary-color;
+    transform: rotate(45deg);
+    top: -26%;
+    right: -26%;
+    z-index: -1;
+    // opacity: 0;
+    animation: sqbox2Ani forwards 1s ease;
+    animation-delay: .3s;
+}
+/* .......................End Header Section...................... */

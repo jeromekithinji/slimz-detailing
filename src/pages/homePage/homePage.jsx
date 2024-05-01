@@ -5,10 +5,29 @@ import ServiceTile from '../../components/serviceTile/serviceTile'
 import Detailer from "../../assets/images/slimz.jpg"
 import ReviewSlider from '../../components/reviewSlider/reviewSlider'
 import Gallery from '../../components/gallery/gallery'
+import Ford from '../../assets/images/Animated Cars Website car.png'
 
 const HomePage = () => {
   return (
     <div className='homePage'>
+        <section className="homePage__hero no-padding">
+            <div class="container header-container">
+                <div class="header-left">
+                    <h1>Car Dealing Experience.</h1>
+                    <h3>Readfinde!</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis est illo <br/> nisi  magni ea distinctio ab quibusdam rem qui ex? Quisquam ipsum quaear <br/> sint eos alias rem sequi repellendus culpa?
+                    </p>
+                    <a href="" class="btn">Explore Cars</a>
+                </div>
+                <div class="header-right">
+                    <div class="sq-box">
+                        <img src={Ford} alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="sq-box2"></div>
+        </section>
         <section className="homePage__chooseUs">
             <p className="homePage__chooseUs-title">
                 Why choose us?
