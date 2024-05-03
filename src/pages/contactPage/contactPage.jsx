@@ -53,8 +53,8 @@ const ContactPage = () => {
 
                 <div className="contactPage__container__right">
                     <p className="contactPage__container__right-subHeading">
-                        Select a service that’s right for{" "}
-                        <span className="textHighlight">you</span>
+                        Send an{" "}
+                        <span className="textHighlight">inquiry</span>
                     </p>
                     <div className="contactPage__container__right-form">
                         <FormField
