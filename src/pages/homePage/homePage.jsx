@@ -11,22 +11,22 @@ const HomePage = () => {
   return (
     <div className='homePage'>
         <section className="homePage__hero no-padding">
-            <div class="container header-container">
-                <div class="header-left">
-                    <h1>Car Dealing Experience.</h1>
-                    <h3>Readfinde!</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis est illo <br/> nisi  magni ea distinctio ab quibusdam rem qui ex? Quisquam ipsum quaear <br/> sint eos alias rem sequi repellendus culpa?
+            <div className="homePage__hero-container">
+                <div className="homePage__hero__left">
+                    <h1 className="homePage__hero__left-header">Car Detailing Experience.</h1>
+                    <h3 className="homePage__hero__left-subheader">Redefined!</h3>
+                    <p className="homePage__hero__left-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis est illo nisi  magni ea distinctio ab quibusdam rem qui ex? Quisquam ipsum quaear <br/> sint eos alias rem sequi repellendus culpa?
                     </p>
-                    <a href="" class="btn">Explore Cars</a>
+                    <a href="" className="btn">Explore Cars</a>
                 </div>
-                <div class="header-right">
-                    <div class="sq-box">
-                        <img src={Ford} alt="" />
+                <div className="homePage__hero__right">
+                    <div className="homePage__hero__right-box">
+                        <img className="homePage__hero__right-image" src={Ford} alt="" />
                     </div>
                 </div>
             </div>
-            <div class="sq-box2"></div>
+            <div className="homePage__hero__right-box2"></div>
         </section>
         <section className="homePage__chooseUs">
             <p className="homePage__chooseUs-title">

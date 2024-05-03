@@ -1,0 +1,56 @@
+@import "../../assets/styles/variables";
+
+.formfield {
+    display: flex;
+    flex-direction: column;
+    font: $primary-font;
+
+    &__label {
+        margin-bottom: 12px;
+        color: $secondary-color;
+        font-weight: bold;
+    }
+}
+
+.formfield__select,
+.formfield__input,
+.formfield__textarea {
+    width: 349px;
+    height: 49px;
+    margin-bottom: 19px;
+    border: 2px solid $primary-color;
+    color: $secondary-color;
+    border-radius: 7px;
+    padding: 10px;
+
+    ::placeholder {
+        color: $text-color;
+    }
+
+    ::-webkit-input-placeholder {
+        color: $text-color;
+    }
+}
+
+.formfield__textarea {
+    height: 200px;
+    min-width: 349px;
+    max-height: 200px;
+    max-width: 349px;
+}
+
+@media (max-width: 768px) {
+    .formfield__select,
+    .formfield__input,
+    .formfield__textarea {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 425px) {
+    .formfield__textarea {
+        min-width: 100%; 
+        max-width: 100%; 
+    }
+}
+

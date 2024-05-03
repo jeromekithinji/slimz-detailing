@@ -8,6 +8,7 @@ import HomePage from "./pages/homePage/homePage";
 import ServicesPage from "./pages/servicesPage/servicesPage";
 import GalleryPage from "./pages/galleryPage/galleryPage";
 import { BrowserRouter as Router, Switch, Route, Routes, BrowserRouter } from "react-router-dom";
+import ContactPage from "./pages/contactPage/contactPage";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                     <Route index path="/" element={<HomePage />} />
                     <Route path="/services" element={<ServicesPage />} />
                     <Route path="/gallery" element={<GalleryPage />} />
+                    <Route path="/contact" element={<ContactPage />} />
                 </Routes>
                 </div>
                 <div className="App__footer">
