@@ -3,8 +3,10 @@ import "./contactPage.scss";
 import FormField from "../../components/formField/formField";
 import { MdOutlinePhoneInTalk, MdOutlineWhatsapp } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
+import StatusBar from "../../components/statusBar/statusBar";
 
 const ContactPage = () => {
+    const [displayStatus, setDisplayStatus] = useState(false)
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -22,6 +24,11 @@ const ContactPage = () => {
     const handleSubmit = () => {
         const formDataJSON = JSON.stringify(formData);
         console.log(formDataJSON);
+        setDisplayStatus(true);
+
+        setTimeout(() => {
+            setDisplayStatus(false);
+        }, 15000);
     };
 
     return (
@@ -56,6 +63,7 @@ const ContactPage = () => {
                         Send an{" "}
                         <span className="textHighlight">inquiry</span>
                     </p>
+                    {displayStatus ? <StatusBar status={"success"} message={"Message sent"}/> : null}
                     <div className="contactPage__container__right-form">
                         <FormField
                             label={"Name"}
