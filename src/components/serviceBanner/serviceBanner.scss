@@ -7,11 +7,25 @@
     min-height: 500px;
     height: fit-content;
     width: 300px;
+    cursor: pointer; /* Add cursor pointer */
 
     &:hover {
         background-color: $primary-color;
         color: white !important;
+    }
 
+    &:hover,
+    &.clicked {
+        background-color: $primary-color;
+        color: white;
+
+        .serviceBanner__headings-subtitle {
+            color: white;
+        }
+
+        .serviceBanner__points-container__icon {
+            color: white;
+        }
     }
 
     &__headings {
@@ -27,9 +41,9 @@
         &-subtitle {
             color: $secondary-color;
 
-            // &:hover {
-            //     color: white;
-            // }
+            &:hover {
+                color: white;
+            }
         }
     }
 
@@ -50,13 +64,12 @@
             gap: 15px;
             align-items: center;
 
-
             &__icon {
                 font-size: 35px;
                 color: $primary-color;
 
                 &:hover {
-                    color: $secondary-color;
+                    color: white;
                 }
             }
 
@@ -64,10 +77,6 @@
                 display: flex;
                 gap: 10px;
             }
-
         }
-
     }
-
-    
 }
