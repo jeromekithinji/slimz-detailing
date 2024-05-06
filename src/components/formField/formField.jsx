@@ -9,6 +9,7 @@ const FormField = ({
     name,
     selectValuesTexts,
     onChange,
+    selectFirstOption,
 }) => {
     const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -19,7 +20,14 @@ const FormField = ({
         if (type === "select") {
             return (
                 <>
-                    <select className="formfield__select" name={name}                         onChange={handleInputChange} >
+                    <select
+                        className="formfield__select"
+                        name={name}
+                        onChange={handleInputChange}
+                    >
+                        <option value="" disabled selected>
+                            {selectFirstOption}
+                        </option>
                         {selectValuesTexts?.map((valueText) => {
                             return (
                                 <option value={valueText.value}>

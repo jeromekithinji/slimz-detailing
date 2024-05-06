@@ -87,6 +87,7 @@ const ContactPage = () => {
                                 { value: "Simple", text: "Simple" },
                                 { value: "Extreme", text: "Extreme" },
                             ]}
+                            selectFirstOption={"Select service"}
                         />
                         <FormField
                             label={"Message"}
