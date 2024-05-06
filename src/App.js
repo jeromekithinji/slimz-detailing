@@ -9,6 +9,7 @@ import ServicesPage from "./pages/servicesPage/servicesPage";
 import GalleryPage from "./pages/galleryPage/galleryPage";
 import { BrowserRouter as Router, Switch, Route, Routes, BrowserRouter } from "react-router-dom";
 import ContactPage from "./pages/contactPage/contactPage";
+import ReviewPage from "./pages/reviewPage/reviewPage";
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                     <Route path="/services" element={<ServicesPage />} />
                     <Route path="/gallery" element={<GalleryPage />} />
                     <Route path="/contact" element={<ContactPage />} />
+                    <Route path="/review" element={<ReviewPage />} />
                 </Routes>
                 </div>
                 <div className="App__footer">
