@@ -36,20 +36,22 @@ const ReviewPage = () => {
             <p className="reviewPage-title">Share your experience</p>
             <p className="reviewPage-subHeading">Let us know how we did!</p>
             <div className="reviewPage-form">
-                <FormField
-                    label={"Name"}
-                    type={"text"}
-                    placeholder={"John Doe"}
-                    name={"name"}
-                    onChange={handleInputChange}
-                />
-                <FormField
-                    label={"Location"}
-                    type={"text"}
-                    placeholder={"London, UK"}
-                    name={"location"}
-                    onChange={handleInputChange}
-                />
+                {/* <div className="reviewPage-form__section"> */}
+                    <FormField
+                        label={"Name"}
+                        type={"text"}
+                        placeholder={"John Doe"}
+                        name={"name"}
+                        onChange={handleInputChange}
+                    />
+                    <FormField
+                        label={"Location"}
+                        type={"text"}
+                        placeholder={"London, UK"}
+                        name={"location"}
+                        onChange={handleInputChange}
+                    />
+                {/* </div> */}
                 <FormField
                     onChange={handleInputChange}
                     label={"Service"}
@@ -62,10 +64,10 @@ const ReviewPage = () => {
                     selectFirstOption={"Select service"}
                 />
                 <FormField
-                    label={"Message"}
+                    label={"Comment"}
                     type={"textarea"}
                     placeholder={""}
-                    name={"message"}
+                    name={"Comment"}
                     onChange={handleInputChange}
                 />
                 <button

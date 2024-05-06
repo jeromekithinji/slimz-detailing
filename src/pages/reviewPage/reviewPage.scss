@@ -31,5 +31,12 @@
                 border: 2px solid $primary-color;
             }
         }
+
+        &__section {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            gap: 30px;
+        }
     }
 }

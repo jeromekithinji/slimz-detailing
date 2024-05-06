@@ -10,6 +10,8 @@ import GalleryPage from "./pages/galleryPage/galleryPage";
 import { BrowserRouter as Router, Switch, Route, Routes, BrowserRouter } from "react-router-dom";
 import ContactPage from "./pages/contactPage/contactPage";
 import ReviewPage from "./pages/reviewPage/reviewPage";
+import { MdOutlineReviews } from "react-icons/md";
+
 
 function App() {
     return (
@@ -20,13 +22,16 @@ function App() {
                     <NavBar />
                 </div>
                 <div className="App__content">
-                <Routes>
-                    <Route index path="/" element={<HomePage />} />
-                    <Route path="/services" element={<ServicesPage />} />
-                    <Route path="/gallery" element={<GalleryPage />} />
-                    <Route path="/contact" element={<ContactPage />} />
-                    <Route path="/review" element={<ReviewPage />} />
-                </Routes>
+                    <Routes>
+                        <Route index path="/" element={<HomePage />} />
+                        <Route path="/services" element={<ServicesPage />} />
+                        <Route path="/gallery" element={<GalleryPage />} />
+                        <Route path="/contact" element={<ContactPage />} />
+                        <Route path="/review" element={<ReviewPage />} />
+                    </Routes>
+                    <div className="App__content__reviewButton">
+                        <MdOutlineReviews className="App__content__reviewButton-icon"/>
+                    </div>
                 </div>
                 <div className="App__footer">
                     <ContactFooter />
