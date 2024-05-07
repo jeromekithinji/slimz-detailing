@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/slimz-detailing/static/css/main.9c556195.css",
+    "main.css": "/slimz-detailing/static/css/main.9d99b828.css",
     "main.js": "/slimz-detailing/static/js/main.5b8d6798.js",
     "static/js/787.57f29a7c.chunk.js": "/slimz-detailing/static/js/787.57f29a7c.chunk.js",
     "static/media/Animated Cars Website car.png": "/slimz-detailing/static/media/Animated Cars Website car.b5c015ff6503544e7803.png",
@@ -10,12 +10,12 @@
     "static/media/Logo.png": "/slimz-detailing/static/media/Logo.ec217d0a1c78845bb3f4.png",
     "static/media/logo.svg": "/slimz-detailing/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/slimz-detailing/index.html",
-    "main.9c556195.css.map": "/slimz-detailing/static/css/main.9c556195.css.map",
+    "main.9d99b828.css.map": "/slimz-detailing/static/css/main.9d99b828.css.map",
     "main.5b8d6798.js.map": "/slimz-detailing/static/js/main.5b8d6798.js.map",
     "787.57f29a7c.chunk.js.map": "/slimz-detailing/static/js/787.57f29a7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c556195.css",
+    "static/css/main.9d99b828.css",
     "static/js/main.5b8d6798.js"
   ]
 }
