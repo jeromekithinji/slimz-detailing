@@ -10,7 +10,7 @@ import GalleryPage from "./pages/galleryPage/galleryPage";
 import { BrowserRouter as Router, Switch, Route, Routes, BrowserRouter } from "react-router-dom";
 import ContactPage from "./pages/contactPage/contactPage";
 import ReviewPage from "./pages/reviewPage/reviewPage";
-import { MdOutlineReviews } from "react-icons/md";
+import ReviewButton from "./components/reviewButton/reviewButton";
 
 
 function App() {
@@ -29,10 +29,9 @@ function App() {
                         <Route path="/contact" element={<ContactPage />} />
                         <Route path="/review" element={<ReviewPage />} />
                     </Routes>
-                    <div className="App__content__reviewButton">
-                        <MdOutlineReviews className="App__content__reviewButton-icon"/>
-                    </div>
+                    <ReviewButton />
                 </div>
+
                 <div className="App__footer">
                     <ContactFooter />
                     <Footer />
