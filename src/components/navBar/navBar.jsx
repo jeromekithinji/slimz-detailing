@@ -23,16 +23,16 @@ const NavBar = () => {
             <img src={Logo} alt="Slimz Detailing" className="navBar__logo" />
             <div className={`navBar__links ${showMenu ? 'showMenu' : ''}`}>
                 {/* <a href="#" className="navBar__link">Home</a> */}
-                <Link to="/" className="navBar__link" onClick={closeNavbar}>
+                <Link to="/slimz-detailing" className="navBar__link" onClick={closeNavbar}>
                     Home
                 </Link>
-                <Link to="/services" className="navBar__link" onClick={closeNavbar}>
+                <Link to="/slimz-detailing/services" className="navBar__link" onClick={closeNavbar}>
                     Services
                 </Link>
-                <Link to="/gallery" className="navBar__link" onClick={closeNavbar}>
+                <Link to="/slimz-detailing/gallery" className="navBar__link" onClick={closeNavbar}>
                     Gallery
                 </Link>
-                <Link to="/contact" className="navBar__link" onClick={closeNavbar}>
+                <Link to="/slimz-detailing/contact" className="navBar__link" onClick={closeNavbar}>
                     Contact
                 </Link>
             </div>

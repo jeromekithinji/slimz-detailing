@@ -18,7 +18,10 @@ const HomePage = () => {
                     <p className="homePage__hero__left-text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis est illo nisi  magni ea distinctio ab quibusdam rem qui ex? Quisquam ipsum quaear <br/> sint eos alias rem sequi repellendus culpa?
                     </p>
-                    <a href="" className="btn">Explore Cars</a>
+                    {/* <a href="" className="btn">Explore Services</a> */}
+                    {/* <button className="serviceTile__button">
+                        Explore Services
+                    </button> */}
                 </div>
                 <div className="homePage__hero__right">
                     <div className="homePage__hero__right-box">

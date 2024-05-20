@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import ContactNav from "./components/contactNav/contactNav";
 import NavBar from "./components/navBar/navBar";
@@ -23,11 +22,11 @@ function App() {
                 </div>
                 <div className="App__content">
                     <Routes>
-                        <Route index path="/" element={<HomePage />} />
-                        <Route path="/services" element={<ServicesPage />} />
-                        <Route path="/gallery" element={<GalleryPage />} />
-                        <Route path="/contact" element={<ContactPage />} />
-                        <Route path="/review" element={<ReviewPage />} />
+                        <Route index path="/slimz-detailing" element={<HomePage />} />
+                        <Route path="/slimz-detailing/services" element={<ServicesPage />} />
+                        <Route path="/slimz-detailing/gallery" element={<GalleryPage />} />
+                        <Route path="/slimz-detailing/contact" element={<ContactPage />} />
+                        <Route path="/slimz-detailing/review" element={<ReviewPage />} />
                     </Routes>
                     <ReviewButton />
                 </div>
